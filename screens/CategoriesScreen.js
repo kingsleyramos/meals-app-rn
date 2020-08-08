@@ -3,12 +3,18 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const CategoriesScreen = (props) => {
     return (
-        <View>
-            <Text></Text>
+        <View style={styles.screen}>
+            <Text>The Categories Screen</Text>
         </View>
     )
 }
 
 export default CategoriesScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    screen: {
+        flex: 1,
+        justifyContent: 'center',
+        alignContent: 'center'
+    }
+})
